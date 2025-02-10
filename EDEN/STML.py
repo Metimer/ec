@@ -77,7 +77,7 @@ st.sidebar.image(logo_url, use_container_width=True)
 # Authentification
 lesDonneesDesComptes = {
     'usernames': {
-        'utilisateur': {'name': 'marine', 'password': 'marineMDP','email': 'utilisateur@gmail.com',
+        'utilisateur': {'name': 'utilisateur', 'password': 'WILD','email': 'utilisateur@gmail.com',
             'failed_login_attempts': 0,
             'logged_in': False,
             'role': 'utilisateur'},
@@ -92,7 +92,7 @@ authenticator.login()
 
 nltk.download('stopwords')
 url_info='https://drive.google.com/uc?export=download&id=11hBENeUzl-XOKcPD9ANUHYDYq6zY8u_H'
-url_ml='https://drive.google.com/uc?export=download&id=1zUFiupTNhJD7r29D2ZPy_J6idba8Cok7'
+url_ml='https://drive.google.com/uc?export=download&id=1IaJZ6JSs_MGWxS5pyE8Qsswzt-1YqJsE'
 
 if not st.session_state.get("authentication_status"):
     st.write("Veuillez vous connecter.")
