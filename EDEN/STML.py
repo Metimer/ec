@@ -92,7 +92,8 @@ authenticator.login()
 
 nltk.download('stopwords')
 url_info='https://drive.google.com/uc?export=download&id=11hBENeUzl-XOKcPD9ANUHYDYq6zY8u_H'
-url_ml='https://drive.google.com/uc?export=download&id=1IaJZ6JSs_MGWxS5pyE8Qsswzt-1YqJsE'
+url_ml='https://drive.google.com/uc?export=download&id=1zUFiupTNhJD7r29D2ZPy_J6idba8Cok7
+'
 
 if not st.session_state.get("authentication_status"):
     st.write("Veuillez vous connecter.")
