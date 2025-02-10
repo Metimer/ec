@@ -165,8 +165,8 @@ else:
         dfml = pd.read_csv(url_ml).fillna('')
 
         dfml['features'] = (
-            (dfml['synopsis'] + ' ')*2 + (dfml['genres'] + ' ')*2 + (dfml['acteurs'] + ' ') +
-            (dfml['actrices'] + ' ') + (dfml['realisateurs'] + ' ')*2 + (dfml['producteurs'] + ' ')*1 + (dfml['scenaristes'] + ' ')
+            (dfml['synopsis'] + ' ') + (dfml['genres'] + ' ')*3 + (dfml['acteurs'] + ' ') +
+            (dfml['actrices'] + ' ') + (dfml['realisateurs'] + ' ')*2 + (dfml['producteurs'] + ' ')*1 + (dfml['scenaristes'] + ' ')+ (dfml['pays_production'] + ' ')
         )
         
         french_stopwords = stopwords.words('french')
